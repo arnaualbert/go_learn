@@ -1,6 +1,6 @@
 # go_learn
 
-# INDEX
+# Index
 
 ## - [Download GO](#download-go)
 
@@ -25,6 +25,8 @@ source ~/.bashrc
 go version
 
 ```
+
+## - [Index](#index)
 
 # GO modules learn
 
