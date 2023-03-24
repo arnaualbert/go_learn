@@ -10,7 +10,7 @@ cd greetings
 go mod init example.com/greetings
 ```
 
-Thats the code of the greetings.go
+That's the code of the greetings.go
 
 ```go
 package greetings
@@ -25,5 +25,44 @@ func Hello(name string) string {
 }
 ```
 
+Now we create the folder hello and all the necessary files
+
+```shell
+cd ..
+mkdir hello
+cd hello
+go mod init example.com/hello
+```
+
+That's the code of the hello.go
+
+```go
+package main
+
+import (
+    "fmt"
+
+    "example.com/greetings"
+)
+
+func main() {
+    // Get a greeting message and print it.
+    message := greetings.Hello("Gladys")
+    fmt.Println(message)
+}
+```
+
+Go to the shell again
+
+```shell
+go mod edit -replace example.com/greetings=../greetings
+go mod tidy
+```
+
+Now you can run the code like this:
+
+```shell
+go run .
+```
 #### [HOME PAGE](../README.md)
 
