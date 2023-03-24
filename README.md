@@ -8,7 +8,7 @@
 
 ## - [Return and handle an error](#return-and-handle-an-error-1)
 
-### Download GO
+# Download GO
 
 How to download GO version 1.20.2
 
@@ -26,7 +26,7 @@ go version
 
 ```
 
-### GO modules learn
+# GO modules learn
 
 Learn how to call your code from another module
 
@@ -46,5 +46,5 @@ Hi, Gladys. Welcome!
 
 #### [GO MODULES LEARN PAGE](go_modules_learn/go_modules_learn.md)
 
-### Return and handle an error
+# Return and handle an error
 
