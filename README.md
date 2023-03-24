@@ -26,4 +26,14 @@ go version
 
 ### GO modules learn
 
-#### [si](go_modules_learn/go_modules_learn.md)
+Learn how to call your code from another module
+
+Structure:
+
+```shell
+go_modules_learn/
+|-- greetings/
+|-- hello/
+```
+
+#### [GO MODULES LEARN PAGE](go_modules_learn/go_modules_learn.md)
