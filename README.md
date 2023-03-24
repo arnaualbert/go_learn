@@ -6,6 +6,8 @@
 
 ## - [GO modules learn](#go-modules-learn-1)
 
+## - [Return and handle an error](#return-and-handle-an-error-1)
+
 ### Download GO
 
 How to download GO version 1.20.2
@@ -43,3 +45,6 @@ Hi, Gladys. Welcome!
 ```
 
 #### [GO MODULES LEARN PAGE](go_modules_learn/go_modules_learn.md)
+
+### Return and handle an error
+
