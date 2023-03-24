@@ -69,4 +69,6 @@ greetings: empty name
 exit status 1
 ```
 
+#### [GO RETURN AND HANDLE AN ERROR PAGE](return_and_handle_an_error/return_and_handle_an_error.md)
+
 ## - [Index](#index)
