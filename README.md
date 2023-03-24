@@ -3,6 +3,7 @@
 ### Download GO
 
 '''console
+
 sudo apt-get update
 wget https://golang.org/dl/go1.20.2.linux-amd64.tar.gz
 sha256sum go1.20.2.linux-amd64.tar.gz
@@ -12,4 +13,5 @@ echo 'export GOPATH=$HOME/go' >> ~/.bashrc
 echo 'export PATH=$PATH:$GOPATH/bin' >> ~/.bashrc
 source ~/.bashrc
 go version
+
 '''
