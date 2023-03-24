@@ -2,11 +2,11 @@
 
 # INDEX
 
-## - [Download GO](#download-go-1)
+## - [Download GO](#download-go)
 
-## - [GO modules learn](#go-modules-learn-1)
+## - [GO modules learn](#go-modules-learn)
 
-## - [Return and handle an error](#return-and-handle-an-error-1)
+## - [Return and handle an error](#return-and-handle-an-error)
 
 # Download GO
 
