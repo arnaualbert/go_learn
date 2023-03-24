@@ -36,4 +36,10 @@ go_modules_learn/
 |-- hello/
 ```
 
+Expected output:
+
+```shell
+Hi, Gladys. Welcome!
+```
+
 #### [GO MODULES LEARN PAGE](go_modules_learn/go_modules_learn.md)
