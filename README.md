@@ -48,5 +48,7 @@ Hi, Gladys. Welcome!
 
 #### [GO MODULES LEARN PAGE](go_modules_learn/go_modules_learn.md)
 
+## - [Index](#index)
+
 # Return and handle an error
 
