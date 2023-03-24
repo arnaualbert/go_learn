@@ -26,4 +26,4 @@ go version
 
 ### GO modules learn
 
-#### [si](#../go_modules_learn/go_modules_learn.md)
+#### [si](#go_learn/go_modules_learn/go_modules_learn.md)
