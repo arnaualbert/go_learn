@@ -52,3 +52,21 @@ Hi, Gladys. Welcome!
 
 # Return and handle an error
 
+Learn how to return and handle and error
+
+Structure:
+
+```shell
+go_modules_learn/
+|-- greetings/
+|-- hello/
+```
+
+Expected output:
+
+```shell
+greetings: empty name
+exit status 1
+```
+
+## - [Index](#index)
