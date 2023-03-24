@@ -2,6 +2,8 @@
 
 ### Download GO
 
+How to download GO version 1.20.2
+
 ```shell
 
 sudo apt-get update
