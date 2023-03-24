@@ -2,7 +2,7 @@
 
 ### Download GO
 
-```console
+```shell
 
 sudo apt-get update
 wget https://golang.org/dl/go1.20.2.linux-amd64.tar.gz
