@@ -2,7 +2,7 @@
 
 # INDEX
 
-## - [DOWNLOAD GO](#download-go-1)
+## - [Download GO](#download-go-1)
 
 ## - [GO modules learn](#go-modules-learn-1)
 
