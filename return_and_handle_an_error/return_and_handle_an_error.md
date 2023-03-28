@@ -1,4 +1,4 @@
-### Return and handle an error
+# Return and handle an error
 
 First we create the folder greetings and we create the go mod file
 
@@ -16,21 +16,21 @@ That's the code of the greetings.go
 package greetings
 
 import (
-	"errors"
-	"fmt"
+ "errors"
+ "fmt"
 )
 
 // Hello returns a greeting for the named person.
 func Hello(name string) (string, error) {
-	// If no name was given, return an error with a message.
-	if name == "" {
-		return "", errors.New("empty name")
-	}
+ // If no name was given, return an error with a message.
+ if name == "" {
+  return "", errors.New("empty name")
+ }
 
-	// If a name was received, return a value that embeds the name
-	// in a greeting message.
-	message := fmt.Sprintf("Hi, %v. Welcome!", name)
-	return message, nil
+ // If a name was received, return a value that embeds the name
+ // in a greeting message.
+ message := fmt.Sprintf("Hi, %v. Welcome!", name)
+ return message, nil
 }
 ```
 
@@ -49,31 +49,31 @@ That's the code of the hello.go
 package main
 
 import (
-	"fmt"
-	"log"
+ "fmt"
+ "log"
 
-	"example.com/greetings"
+ "example.com/greetings"
 )
 
 func main() {
-	// Set properties of the predefined Logger, including
-	// the log entry prefix and a flag to disable printing
-	// the time, source file, and line number.
-	log.SetPrefix("greetings: ")
-	log.SetFlags(0)
+ // Set properties of the predefined Logger, including
+ // the log entry prefix and a flag to disable printing
+ // the time, source file, and line number.
+ log.SetPrefix("greetings: ")
+ log.SetFlags(0)
 
-	// Request a greeting message.
-	message, err := greetings.Hello("")
+ // Request a greeting message.
+ message, err := greetings.Hello("")
 
-	// If an error was returned, print it to the console and
-	// exit the program.
-	if err != nil {
-		log.Fatal(err)
-	}
+ // If an error was returned, print it to the console and
+ // exit the program.
+ if err != nil {
+  log.Fatal(err)
+ }
 
-	// If no error was returned, print the returned message
-	// to the console.
-	fmt.Println(message)
+ // If no error was returned, print the returned message
+ // to the console.
+ fmt.Println(message)
 }
 ```
 
@@ -89,4 +89,5 @@ Now you can run the code like this:
 ```shell
 go run .
 ```
+
 #### [HOME PAGE](../README.md)
